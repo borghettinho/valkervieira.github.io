@@ -1,3 +1,9 @@
 @import './src/styles/_reset.sass'
 @import './src/styles/_colors.sass'
+@import './src/styles/layout/baseLayout.sass'
 
+@media only screen and (max-width: 425px)
+  @import './src/styles/layout/mobileLayout.sass'
+
+@media only screen and (min-width: 426px)
+  @import './src/styles/layout/desktopLayout.sass'
